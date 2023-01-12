@@ -43,7 +43,7 @@ class Bot(Client):
         await keep_alive()
         await super().start()
         me = await self.get_me()
-        self.username = '@' + me.username
+        self.username = f'@{me.username}'
         self.raw_username = me.username
         print('Bot started')
 
