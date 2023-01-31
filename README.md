@@ -22,7 +22,7 @@ FORCESUB - Id
 
 UPDATE_CHANNEL - id
 
-USERNAME -Badsha_Studios
+USERNAME - 
 
 RESULTS_COUNT - 20
 
