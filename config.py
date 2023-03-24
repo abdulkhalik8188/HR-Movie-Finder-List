@@ -20,7 +20,7 @@ CHANNELS_LIST = (
     if os.environ.get("CHANNELS_LIST")
     else []
 )
-FORCESUB = os.environ.get('FORCESUB', "False")
+FORCESUB = os.environ.get('FORCESUB', "True")
 
 # Other Settings
 UPDATE_CHANNEL =  int(os.environ.get('UPDATE_CHANNEL'))
