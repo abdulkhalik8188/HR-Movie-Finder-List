@@ -1,17 +1,17 @@
 import os
 
-API_ID = os.environ.get('API_ID')
-API_HASH = os.environ.get('API_HASH')
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
-OWNER_ID = int(os.environ.get("OWNER_ID"))
+API_ID = os.environ.get('29665277')
+API_HASH = os.environ.get('138001c981e1dbb5b9b2218a6bf66f03')
+BOT_TOKEN = os.environ.get('6076403137:AAEIZHpc-aIs_dfob6Q7oqLNMUYK5i8yqIg')
+OWNER_ID = int(os.environ.get("5941212132"))
 ADMINS = (
-    [int(i) for i in os.environ.get("ADMINS", "").split(" ")]
+    [int(i) for i in os.environ.get("ADMINS", "5851749250").split(" ")]
     if os.environ.get("ADMINS")
     else []
 )
 if OWNER_ID not in ADMINS:
     ADMINS.append(OWNER_ID)
-MONGODB = os.environ.get('MONGODB')
+MONGODB = os.environ.get('mongodb+srv://kailash:pass@cluster0.sqtztxm.mongodb.net/?retryWrites=true&w=majority')
 DATABASE_NAME = os.environ.get('DATABASE_NAME')
 COLLECTION_NAME = os.environ.get('COLLECTION_NAME')
 CHANNELS = os.environ.get('CHANNELS', "False")
@@ -23,9 +23,9 @@ CHANNELS_LIST = (
 FORCESUB = os.environ.get('FORCESUB', "True")
 
 # Other Settings
-UPDATE_CHANNEL =  int(os.environ.get('UPDATE_CHANNEL'))
-USERNAME = os.environ.get('USERNAME')
-HOWTO = os.environ.get('HOWTO', 'http://example.com')
+UPDATE_CHANNEL =  int(os.environ.get('https://t.me/pathan_h'))
+USERNAME = os.environ.get('@Abdul_khalik_8')
+HOWTO = os.environ.get('HOWTO', 'https://t.me/pathan_h')
 RESULTS_COUNT = int(os.environ.get('RESULT_COUNTS', 10))
 AUTO_DELETE = os.environ.get('AUTO_DELETE', False)
 AUTO_DELETE_TIME = int(os.environ.get('AUTO_DELETE_TIME', 300))
@@ -33,9 +33,9 @@ IMDB_TEMPLATE = os.environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌‌�
 MAX_LIST_ELM = os.environ.get("MAX_LIST_ELM", None)
 WELCOME_IMAGE = os.environ.get('WELCOME_IMAGE', 'https://bit.ly/3y8miWu')
 RESULTS_IMAGE = os.environ.get('RESULTS_IMAGE', 'https://static.wikia.nocookie.net/ideas/images/e/e4/Movie_night.jpg')
-MDISK_API=os.environ.get('MDISK_API')
-SHORTENER_API=os.environ.get('SHORTENER_API')
-SHORTENER_WEBSITE=os.environ.get('SHORTENER_WEBSITE')
+MDISK_API=os.environ.get('dZul9OJxgbehif3vMtM4')
+SHORTENER_API=os.environ.get('e0c6422a17c2c50c426815f666fb86c826684866')
+SHORTENER_WEBSITE=os.environ.get('mdiskshortner.link')
 OMDB_API=os.environ.get('OMDB_API')
 CUSTOM_CAPTION=os.environ.get('CUSTOM_CAPTION', '{caption}')
 #  Replit Config
